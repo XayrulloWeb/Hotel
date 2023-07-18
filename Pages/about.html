@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Style/style.css">
+    <title>About</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="wrapper_start">
+            <div class="hub">
+                <div class="navbar">
+                    <div class="navbar_start">
+                        <div class="navbar_left">
+                            <a href="../index.html"><span>Custos</span></a>
+                        </div>
+                        <div class="navbar_right">
+                            <ul class="nav-menu">
+                                <a class="nav-item" href="./rooms.html">
+                                    <li>Rooms</li>
+                                </a>
+                                <a href="./about">
+                                    <li>About</li>
+                                </a>
+                                <a href="./gallery.html">
+                                    <li>Gallery</li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="hamburger">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div class="custos">
+                    <h2>Custos Hotel</h2>
+
+                </div>
+            </div>
+
+
+
+
+            <div class="about">
+                <div class="about_start">
+                    <div class="about_hotel-one">
+                        <div class="about_hotel-img">
+                            <img src="../Images/Custos.jpg" alt="">
+
+                        </div>
+                        <div class="about_hotel-text">
+                            <p>Расположение: Отель "Custos" находится на морском побережье Краснодарского края, в прекрасном
+                                и уединенном месте, где гости могут наслаждаться панорамными видами на море и окружающую
+                                природу.
+    
+                                <br> <br>
+    
+                                Разнообразие номеров: Отель предлагает широкий выбор комфортабельных номеров, включая
+                                стандартные одноместные и двухместные номера, а также люксы и апартаменты с просторными
+                                площадями и современным дизайном.
+                                <br> <br>
+                                Услуги и удобства: "Custos" стремится обеспечить своим гостям полный спектр услуг и удобств.
+                                В отеле есть ресторан, предлагающий разнообразное меню, где гости могут насладиться
+                                изысканными блюдами. Также доступны спа-салон, фитнес-центр, открытый бассейн,
+                                конференц-залы и другие объекты для проведения мероприятий.
+                            </p>
+                        </div>
+                        
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });</script>
+</body>
+
+</html>

@@ -282,3 +282,24 @@
         font-size: 15px;
     }
 }
+
+
+.about_start {
+    margin-top: 100px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.about_hotel-one, .about_hotel-two{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about_hotel-img{
+    width: 49%;
+}
+
+
+.about_hotel-text{
+    width: 49%;
+}
