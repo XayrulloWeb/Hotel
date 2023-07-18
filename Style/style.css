@@ -298,8 +298,23 @@
 .about_hotel-img{
     width: 49%;
 }
-
-
+.about_hotel-img img{
+    width: 100%;
+}
 .about_hotel-text{
     width: 49%;
+}
+
+@media(max-width:768px){
+    .about_hotel-one{
+        flex-direction: column;
+    }
+
+    .about_hotel-text{
+        width: 80%;
+        margin-top: 40px;
+    }
+    .about_hotel-img{
+        width: 80%;
+    }
 }
