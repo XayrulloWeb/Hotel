@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Style/style.css">
+    <title>Gallery</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="wrapper_start">
+            <div class="hub">
+                <div class="navbar">
+                    <div class="navbar_start">
+                        <div class="navbar_left">
+                            <a href="../index.html"><span>Custos</span></a>
+                        </div>
+                        <div class="navbar_right">
+                            <ul class="nav-menu">
+                                <a class="nav-item" href="./rooms.html">
+                                    <li>Rooms</li>
+                                </a>
+                                <a href="#">
+                                    <li>Dinner</li>
+                                </a>
+                                <a href="./gallery.html">
+                                    <li>Gallery</li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="hamburger">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div class="custos">
+                    <h2>Custos Hotel</h2>
+
+                </div>
+            </div>
+            <div class="container">
+                <div class="gallery">
+                    <div class="gallery_start">
+                        <div class="gallery_text">
+                            <h3>Hotel Gallery</h5>
+                        </div>
+
+                        <div class="gallery_reseption">
+                            <div class="gallery_relax-text">
+                                <span>Street</span>
+                            </div>
+                            <div class="gallery_reseption-img">
+                                <img src="../Images/street.jpg" alt="">
+                                <img src="../Images/street2.jpg" alt="">
+                                <img src="../Images/Custos.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="gallery_relax">
+                            <div class="gallery_relax-text">
+                                <span>Kitchen</span>
+                            </div>
+                            <div class="gallery_reseption-img">
+                                <img src="../Images/kitchen.jpg" alt="">
+                                <img src="../Images/relax1.jpg" alt="">
+                                <img src="../Images/relax2.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="gallery_room">
+                            <div class="gallery_relax-text">
+                                <span>Rooms</span>
+                            </div>
+                            <div class="gallery_reseption-img">
+                                <img src="../Images/room1.jpg" alt="">
+                                <img src="../Images/room2.jpg" alt="">
+                                <img src="../Images/room3.jpg" alt="">
+                                <img src="../Images/room4.jpg" alt="">
+                                <img src="../Images/room5.jpg" alt="">
+                                <img src="../Images/room6.jpg" alt="">
+                                <img src="../Images/room7jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script>const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+        
+        
+        hamburger.addEventListener('click', () => {
+          hamburger.classList.toggle('active');
+          navMenu.classList.toggle('active');
+        });</script>
+</body>
+
+</html>
